@@ -1,4 +1,4 @@
 # CPSO_trained-ANFIS
-filtering                                                                                                                                                   
-feature extraction using BCI_CSP function                                                                                                         
-classification using ANFIS
+1- filtering                                                                                                                                                   
+2- feature extraction using BCI_CSP function                                                                                                         
+3- classification using ANFIS
