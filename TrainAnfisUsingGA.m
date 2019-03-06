@@ -1,3 +1,4 @@
+%% Training anfis using GA
 
 function bestfis=TrainAnfisUsingGA(fis,data)
 
