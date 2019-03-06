@@ -1,7 +1,3 @@
-%
-
-%
-
 function fis=SetFISParams(fis,p)
 
     nInput=numel(fis.input);
