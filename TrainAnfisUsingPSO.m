@@ -1,3 +1,4 @@
+%% Training anfis using PSO
 
 function bestfis=TrainAnfisUsingPSO(fis,data)
 
