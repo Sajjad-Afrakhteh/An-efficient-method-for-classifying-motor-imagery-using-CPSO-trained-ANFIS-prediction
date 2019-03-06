@@ -1,3 +1,5 @@
+%% Implementation of Common Spatial Pattern (CSP) method in Feature Extraction
+
 function [Wt,xout]=BCI_CSP(class1_train,class2_train,varargin)
 
 if nargin<2
