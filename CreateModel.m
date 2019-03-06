@@ -1,16 +1,3 @@
-%
-% Copyright (c) 2015, Yarpiz (www.yarpiz.com)
-% All rights reserved. Please read the "license.txt" for license terms.
-%
-% Project Code: YOEA103
-% Project Title: Ant Colony Optimization for Quadratic Assignment Problem
-% Publisher: Yarpiz (www.yarpiz.com)
-% 
-% Developer: S. Mostapha Kalami Heris (Member of Yarpiz Team)
-% 
-% Contact Info: sm.kalami@gmail.com, info@yarpiz.com
-%
-
 function model=CreateModel()
 
     x=[67 80 62 34 54 36 53 46 39 35 83 58 87 90 83 38 26 78 49 67];
