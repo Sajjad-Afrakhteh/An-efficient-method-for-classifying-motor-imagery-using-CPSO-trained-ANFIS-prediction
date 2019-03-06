@@ -1,4 +1,3 @@
-
 function p=GetFISParams(fis)
 
     p=[];
