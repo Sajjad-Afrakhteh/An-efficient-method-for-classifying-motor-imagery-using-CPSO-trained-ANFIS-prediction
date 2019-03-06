@@ -1,4 +1,4 @@
-%% Training anfis using CPSO
+%% Training anfis using BBO
 
 function bestfis=TrainAnfisUsingBBO(fis,data)
 
