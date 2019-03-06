@@ -49,19 +49,10 @@ function results=RunPSO(Problem,Params)
 
     w=1;            % Inertia Weight
     wdamp=0.99;     % Inertia Weight Damping Ratio
-%     c1=2;           % Personal Learning Coefficient
-%     c2=2;           % Global Learning Coefficient
+    c1=2;           % Personal Learning Coefficient
+    c2=2;           % Global Learning Coefficient
 
-%     Constriction Coefficients
-%     phi1=2.05;
-%     phi2=2.05;
-%     phi=phi1+phi2;
-%     chi=2/(phi-2+sqrt(phi^2-4*phi));
-%     w=chi;          % Inertia Weight
-%     wdamp=1;        % Inertia Weight Damping Ratio
-%     c1=chi*phi1;    % Personal Learning Coefficient
-%     c2=chi*phi2;    % Global Learning Coefficient
- 
+
     % Velocity Limits
   VelMax=0.1*(VarMax-VarMin);
   VelMin=-VelMax;
@@ -111,8 +102,7 @@ function results=RunPSO(Problem,Params)
     %% PSO Main Loop
 
     for it=1:MaxIt
-    c1=0.5+2*exp(-(4*it/MaxIt)^2);
-    c2=2.2-2*exp(-(4*it/MaxIt)^2);
+    
         for i=1:nPop
 
             % Update Velocity
