@@ -1,4 +1,5 @@
 
+%% Training anfis using DE
 
 function bestfis=TrainAnfisUsingDE(fis,data)
 
